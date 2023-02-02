@@ -1,3 +1,12 @@
+# FORK of ([ai_barcode_scanner](https://github.com/mohesu/barcode_scanner))
+__NOTE__: this is a fork of ai_barcode_scanner made in order to work with [my fork](https://github.com/LorenzoMorelli/barcode_scanner_for_wifiqr) of the flutter plugin [mobile_scanner](https://github.com/juliansteenbakker/mobile_scanner) instead of the original one. This because my fork solve the macos error "mobile_scanner/MobileScannerPlugin.swift:93: Fatal error: Unexpectedly found nil while implicitly unwrapping an Optional value" without breaking the compatibility with ai_barcode_scanner
+All this code is made and it is part of the APP (__WifiQR__)[TODO MYAPP] and so it is supposed to be maintained only accodingly this APP.
+__SETUP__: clone this repository and [my fork](https://github.com/LorenzoMorelli/barcode_scanner_for_wifiqr) of barcode_scanner and put them in the main flutter project directory. Then you need to add ONLY this plugin to the path in your `pubspec.yaml`
+```
+ai_barcode_scanner:
+    path: ./ai_barcode_scanner
+```
+
 # ai_barcode_scanner
 
 [![pub package](https://img.shields.io/pub/v/ai_barcode_scanner.svg)](https://pub.dev/packages/ai_barcode_scanner)
