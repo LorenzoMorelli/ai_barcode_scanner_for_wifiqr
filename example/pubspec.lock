@@ -117,9 +117,9 @@ packages:
   mobile_scanner:
     dependency: transitive
     description:
-      name: mobile_scanner
-      url: "https://pub.dartlang.org"
-    source: hosted
+      path: "../../mobile_scanner"
+      relative: true
+    source: path
     version: "2.0.0"
   path:
     dependency: transitive
